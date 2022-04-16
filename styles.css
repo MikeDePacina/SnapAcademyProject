@@ -1,0 +1,86 @@
+body {
+  width: 100%;
+  background-image: url("/images/background.jpg");
+}
+
+.content {
+  width: 90%;
+  margin: 0.5em 1em 1em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+nav {
+  width: 100%;
+
+  background-color: aliceblue;
+  padding: 0.5em;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: row;
+}
+
+nav > a {
+  font-size: 1.5rem;
+  padding: 1em;
+}
+
+#logo {
+  border-radius: 45%;
+  max-width: 15%;
+  height: auto;
+  margin: 2em;
+}
+
+div > img {
+  height: 350px;
+  width: 100%;
+}
+
+.polaroid {
+  width: 23%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.caption {
+  text-align: center;
+  padding: 0.5em 1em;
+}
+
+.polaroid-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-container {
+  width: 80%;
+  display: flex;
+  margin: 4em 2em;
+  justify-content: space-between;
+}
+
+#about-header {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#about-paragraph {
+  max-width: 35%;
+}
+
+#cgo {
+  width: 50%;
+  height: auto;
+}
+
+.contact-container {
+  margin: 2em;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
