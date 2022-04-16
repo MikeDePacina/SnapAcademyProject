@@ -3,6 +3,10 @@ body {
   background-image: url("/images/background.jpg");
 }
 
+.header {
+  display: flex;
+  flex-direction: row;
+}
 .content {
   width: 90%;
   margin: 0.5em 1em 1em 1em;
@@ -11,8 +15,8 @@ body {
   justify-content: center;
 }
 nav {
-  width: 100%;
-
+  width: 80%;
+  align-self: flex-end;
   background-color: aliceblue;
   padding: 0.5em;
   opacity: 0.9;
@@ -34,14 +38,19 @@ nav > a {
 
 div > img {
   height: 350px;
-  width: 100%;
+  width: 350px;
+  margin: 1em;
 }
 
 .polaroid {
-  width: 23%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
+  align-self: center;
+}
+
+.polaroid:hover {
+  transform: scale(1.2);
 }
 
 .caption {
@@ -60,17 +69,20 @@ div > img {
   display: flex;
   margin: 4em 2em;
   justify-content: space-between;
+  align-items: center;
 }
 
-#about-header {
-  font-weight: bold;
-  font-size: 3rem;
+.about-right {
 }
 
 #about-paragraph {
   max-width: 35%;
 }
 
+h1 {
+  margin: 2em;
+  align-self: center;
+}
 #cgo {
   width: 50%;
   height: auto;
