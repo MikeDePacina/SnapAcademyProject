@@ -13,22 +13,23 @@
       <div class="header">
         <img src="/images/recipe plus logo - Copy.jpg" alt="logo" id="logo" />
         <nav class="navbar">
-          <a>HOME</a>
-          <a>ABOUT</a>
-          <a>CONTACT</a>
+          <a href="#about">HOME</a>
+          <a href="#products">PRODUCTS</a>
+          <a href="#contact">CONTACT</a>
         </nav>
       </div>
-      <div class="about-container">
+      <div class="about-container" id="about">
         <img src="/images/cgo with food.jpg" alt="cgo next to food" id="cgo" />
         <div class="about-right">
           <p id="about-paragraph">
-            <h2>ABOUT US</h2>
-            Recipes Plus is a food business started by motivated young
-            entrepreneurs in the Philippines. Recipes Plus prides itself with
-            its delicious homemade chili garlic oil which is the perfect sauce
-            to spice up any dish.
+            <h2 id="title">ABOUT US</h2>
+            Recipes Plus was started by young motivated
+            entrepreneurs from the Philippines. Recipes Plus prides itself with
+            its delicious homemade chili garlic oil which is perfect to pair with 
+            and spice up any dish.
           </p>
-          <p>
+          <br>
+          <p id="note">
             This is an unofficial site of Recipes Plus. This site was made by
             Mike De Pacina as part of the Snap Engineerning Academy's
             application process
@@ -36,7 +37,7 @@
         </div>
       </div>
       <h1>PRODUCTS</h1>
-      <div class="polaroid-container">
+      <div class="polaroid-container" id="products">
         <div class="polaroid">
           <img src="/images/chili garlic oil.jpg" alt="chili garlic oil" />
           <div class="caption">
@@ -58,7 +59,7 @@
             alt="chili garlic oil in bag"
           />
           <div class="caption">
-            <p>Chili garlic oil in box bag</p>
+            <p>Chili garlic oil in  bag</p>
           </div>
         </div>
         <div class="polaroid">
@@ -71,7 +72,8 @@
           </div>
         </div>
       </div>
-      <footer class="contact-container">
+    </div>
+      <footer class="contact-container" id="contact">
         <h2>CONTACT US NOW TO ORDER</h2>
         <p>(562) 477-1379</p>
         <div class="icons">
@@ -81,6 +83,7 @@
               alt="instagram"
               width="45x"
               height="45px"
+              id="ig"
             />
           </a>
           <a href="https://www.facebook.com/recipesplusphilippines">
@@ -89,10 +92,11 @@
               alt="facebook"
               width="50px"
               height="50px"
+              id="fb"
             />
           </a>
         </div>
       </footer>
-    </div>
+    
   </body>
 </html>
